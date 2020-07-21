@@ -1,0 +1,63 @@
+/* body css */
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* set main content to grow so that footer moves to the bottom of the viewport */
+.main-content {
+    flex-grow: 1;
+}
+
+/* footer css */
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+/* header css */
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+/* header1 */
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+/* anchor link from header */
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+/* image class */
+.portrait {
+    width: 200px;
+}
+
+/* inputs */
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+/* buttons */
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
