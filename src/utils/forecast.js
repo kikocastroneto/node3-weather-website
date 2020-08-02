@@ -13,7 +13,7 @@ function forecast(lat, lon, callback) {
             callback(body.error.info, undefined);
         }
         else {
-            callback(undefined, `It is currently ${body.current.temperature} degrees out. It feels like ${body.current.feelslike} degrees out.`);
+            callback(undefined, `It is currently ${body.current.temperature} degrees out. It feels like ${body.current.feelslike} degrees out. Information checked at ${body.current.observation_time}`);
         }
     })
 }
